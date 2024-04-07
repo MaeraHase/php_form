@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <title>おすすめしたい本データ登録</title>
   <link rel="stylesheet" href="form.css">
-  <style>div{padding: 10px;font-size:16px;}</style>
+  <!-- <style>div{padding: 10px;font-size:18px;}</style> -->
 </head>
 <body>
 <!-- 最低のライン→データ登録：名前、Email、聞きたい問いを複数。登録されたデータを表で表示。 -->
@@ -23,7 +23,7 @@
 <form method="post" action="write.php">
   <div class="jumbotron">
    <fieldset>
-    <legend>おすすめしたい本</legend>
+    <legend class="form_title">おすすめしたい本</legend>
      <label>名前：<input type="text" name="name"></label><br>
      <label>Email：<input type="text" name="email"></label><br>
      <label>読んだ本の名前：<input type="text" name="book_name"></label><br>
